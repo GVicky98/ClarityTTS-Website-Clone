@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calaritytts</title>
+        <link href="images/fav_icon.png" rel="icon">
+        <link href="tts_style.css" rel="stylesheet">
+        <script src="tts_script1.js"></script>
+        <script src="tts_script2.js"></script>
+        <script src="tts_script3.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/claritytts.svg" alt="CLARITYTTS">
+            </div>
+            <nav class="sysnav">
+                <ul>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Media</a></li>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#" id="hsign">Sign Up</a></li>
+                </ul>
+            </nav>
+        </header>
+        <nav class="mobnav">
+            <div class="ham" onclick="hamCross()">
+                <div class="hm hm1"></div>
+                <div class="hm hm2"></div>
+                <div class="hm hm3"></div>
+            </div>
+            <ul>
+                <hr>
+                <li><a href="#">Product</a></li><hr>
+                <li><a href="#">Pricing</a></li><hr>
+                <li><a href="#">Media</a></li><hr>
+                <li><a href="#">Company</a></li><hr>
+                <li><a href="#">Blog</a></li><hr>
+                <li><a href="#">Sign In</a></li><hr>
+                <button class="h1sign">Sign Up</button>
+            </ul>
+        </nav>
+        <div class="bodycontainer">
+            <section>
+                <aside class="leftside">
+                    <div>
+                        <div class="lstop">
+                            <img src="images/signup_img.png" alt="signup image">
+                            <h2>Elevate Your SaaS Journey Now!</h2>
+                            <p>Make The Most Of Travel SaaS Automation With...</p>
+                        </div>
+                        <hr>
+                        <div class="lsbottom">
+                            <p><img src="images/list_tick.png"> Single API/XML Integrations.</p>
+                            <p><img src="images/list_tick.png"> Multi-Airline Inventory Management.</p>
+                            <p><img src="images/list_tick.png"> NDC Content From Major Global Airlines.</p>
+                        </div>
+                    </div>
+                </aside>
+                <aside class="rightside">
+                    <div class="regform">
+                        <form method="post" action="www.google.com" onsubmit="return validateForm()">
+                            <div class="formheader">
+                                <h1>Elevate Your SaaS Journey Now!</h1>
+                                <h2>Signup now with email...</h2>
+                            </div>
+                            <div class="firstrow">
+                                <div class="firstname">
+                                    <input type="text" id="bx1" placeholder="First Name*">
+                                    <div id="er1">
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="lastname">
+                                    <input type="text" id="bx2" placeholder="Last Name*">
+                                    <div id="er2">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mail">
+                                <input type="email" id="bx3" placeholder="Email*">
+                                <div id="er3">
+                                    
+                                </div>
+                            </div>
+                            <div class="thirdrow">
+                                <div class="business">
+                                    <input type="text" id="bx4" placeholder="Business Name">
+                                    <div id="er4">
+                                        
+                                    </div>
+                                </div>
+                                <div class="country">
+                                    <select id="bx5">
+                                        <option  disabled selected hidden value="select">Select Country</option>
+                                        <option value="AF">Afghanistan</option>
+                                        <option value="AX">Aland Islands</option>
+                                        <option value="AL">Albania</option>
+                                        <option value="DZ">Algeria</option>
+                                        <option value="AS">American Samoa</option>
+                                        <option value="AD">Andorra</option>
+                                        <option value="AO">Angola</option>
+                                        <option value="AI">Anguilla</option>
+                                        <option value="AQ">ANTARCTICA</option>
+                                        <option value="AG">Antigua and Barbuda</option>
+                                        <option value="AR">Argentina</option>
+                                        <option value="AM">Armenia</option>
+                                        <option value="AW">Aruba</option>
+                                        <option value="AU">Australia</option>
+                                        <option value="AT">Austria</option>
+                                        <option value="AZ">Azerbaijan Republic</option>
+                                        <option value="BS">Bahamas</option>
+                                        <option value="BH">Bahrain</option>
+                                        <option value="BD">Bangladesh</option>
+                                        <option value="BB">Barbados</option>
+                                        <option value="BY">Belarus</option>
+                                        <option value="BE">Belgium</option>
+                                        <option value="BZ">Belize</option>
+                                        <option value="BJ">Benin,People's Republic of</option>
+                                        <option value="BM">Bermuda</option>
+                                        <option value="BT">Bhutan</option>
+                                        <option value="BO">Bolivia</option>
+                                        <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                                        <option value="BA">Bosnia and Herzegovina</option>
+                                        <option value="BW">Botswana</option>
+                                        <option value="BR">Brazil</option>
+                                        <option value="IO">British Indian Ocean Territory</option>
+                                        <option value="BN">Brunei Darussalam</option>
+                                        <option value="BG">Bulgaria</option>
+                                        <option value="BF">Burkina Faso</option>
+                                        <option value="BI">Burundi, Republic of</option>
+                                        <option value="KH">Cambodia</option>
+                                        <option value="CM">Cameroon</option>
+                                        <option value="CA">anada</option>
+                                        <option value="CV">Cape Verde</option>
+                                        <option value="KY">Cayman Islands</option>
+                                        <option value="CF">Central African Republic</option>
+                                        <option value="TD">Chad</option>
+                                        <option value="CL">Chile</option>
+                                        <option value="CN">China</option>
+                                        <option value="CX">Christmas Island</option>
+                                        <option value="CC">Cocos (Keeling) Islands</option>
+                                        <option value="CO">Colombia</option>
+                                        <option value="KM">Comoros, Union of the</option>
+                                        <option value="CG">Congo</option>
+                                        <option value="CD">Congo, Democratic Republic of</option>
+                                        <option value="CK">Cook Islands</option>
+                                        <option value="CR">Costa Rica</option>
+                                        <option value="CI">Cote D'Ivoire, Ivory Coast, Republic of the</option>
+                                        <option value="HR">Croatia</option>
+                                        <option value="CU">Cuba</option>
+                                        <option value="CW">Curacao</option>
+                                        <option value="CY">Cyprus, Republic of</option>
+                                        <option value="CZ">Czech Republic</option>
+                                        <option value="DK">Denmark</option>
+                                        <option value="DJ">Djibouti</option>
+                                        <option value="DM">Dominica, Commonwealth of</option>
+                                        <option value="DO">Dominican Republic</option>
+                                        <option value="EC">Ecuador</option>
+                                        <option value="EG">Egypt</option>
+                                        <option value="SV">El Salvador</option>
+                                        <option value="GQ">Equatorial Guinea</option>
+                                        <option value="ER">Eritrea</option>
+                                        <option value="EE">Estonia</option>
+                                        <option value="ET">Ethiopia</option>
+                                        <option value="FO">Faeroe Islands</option>
+                                        <option value="FK">Falkland Islands</option>
+                                        <option value="FJ">Fiji</option>
+                                        <option value="FI">Finland</option>
+                                        <option value="FR">France</option>
+                                        <option value="GF">French Guiana</option>
+                                        <option value="PF">French Polynesia</option>
+                                        <option value="GA">Gabon, Gabonese Republic</option>
+                                        <option value="GM">Gambia</option>
+                                        <option value="GE">Georgia</option>
+                                        <option value="DE">Germany</option>
+                                        <option value="GH">Ghana</option>
+                                        <option value="GI">Gibraltar</option>
+                                        <option value="GR">Greece</option>
+                                        <option value="GL">Greenland</option>
+                                        <option value="GD">Grenada</option>
+                                        <option value="GP">Guadeloupe</option>
+                                        <option value="GU">Guam</option>
+                                        <option value="GT">Guatemala</option>
+                                        <option value="GG">Guernsey</option>
+                                        <option value="GN">Guinea, Revolutionary People's Rep'c of</option>
+                                        <option value="GW">Guinea-Bissau</option>
+                                        <option value="GY">Guyana, Republic of</option>
+                                        <option value="HT">Haiti</option>
+                                        <option value="HN">Honduras</option>
+                                        <option value="HK">Hong Kong</option>
+                                        <option value="HU">Hungary</option>
+                                        <option value="IS">Iceland</option>
+                                        <option value="IN">India</option>
+                                        <option value="ID">Indonesia</option>
+                                        <option value="IR">Iran</option>
+                                        <option value="IQ">Iraq</option>
+                                        <option value="IE">Ireland</option>
+                                        <option value="IM">Isle Of Man</option>
+                                        <option value="IL">Israel</option>
+                                        <option value="IT">Italy</option>
+                                        <option value="JM">Jamaica</option>
+                                        <option value="JP">Japan</option>
+                                        <option value="JE">Jersey</option>
+                                        <option value="JO">Jordan</option>
+                                        <option value="KZ">azakhstan</option>
+                                        <option value="KE">Kenya</option>
+                                        <option value="LS">Kingdom of Lesotho</option>
+                                        <option value="KI">Kiribati</option>
+                                        <option value="KP">Korea (North)</option>
+                                        <option value="XK">Kosovo</option>
+                                        <option value="KW">Kuwait</option>
+                                        <option value="KG">Kyrgyzstan</option>
+                                        <option value="LA">Laos</option>
+                                        <option value="LV">Latvia</option>
+                                        <option value="LB">Lebanon</option>
+                                        <option value="LR">Liberia</option>
+                                        <option value="LY">Libya</option>
+                                        <option value="LI">Liechtenstein</option>
+                                        <option value="LT">Lithuania</option>
+                                        <option value="LU">Luxembourg</option>
+                                        <option value="MO">Macau</option>
+                                        <option value="MK">Macedonia</option>
+                                        <option value="MG">Madagascar</option>
+                                        <option value="MW">Malawi</option>
+                                        <option value="MY">Malaysia</option>
+                                        <option value="MV">Maldives</option>
+                                        <option value="ML">Mali, Republic of</option>
+                                        <option value="MT">Malta</option>
+                                        <option value="MH">Marshall Islands</option>
+                                        <option value="MQ">Martinique</option>
+                                        <option value="MR">Mauritania</option>
+                                        <option value="MU">Mauritius</option>
+                                        <option value="YT">Mayotte</option>
+                                        <option value="MX">Mexico</option>
+                                        <option value="FM">Micronesia</option>
+                                        <option value="MD">Moldova</option>
+                                        <option value="MC">Monaco</option>
+                                        <option value="MN">Mongolia</option>
+                                        <option value="ME">Montenegro</option>
+                                        <option value="MS">Montserrat</option>
+                                        <option value="MA">Morocco</option>
+                                        <option value="MZ">Mozambique</option>
+                                        <option value="MM">Myanmar</option>
+                                        <option value="NA">Namibia</option>
+                                        <option value="NR">Nauru</option>
+                                        <option value="NP">Nepal</option>
+                                        <option value="NL">Netherlands</option>
+                                        <option value="AN">Netherlands Antilles</option>
+                                        <option value="NC">New Caledonia</option>
+                                        <option value="NZ">New Zealand</option>
+                                        <option value="NI">Nicaragua</option>
+                                        <option value="NE">Niger, Republic of the</option>
+                                        <option value="NG">Nigeria</option>
+                                        <option value="NU">Niue, Republic of</option>
+                                        <option value="NF">Norfolk Island</option>
+                                        <option value="MP">Northern Mariana Islands</option>
+                                        <option value="NO">Norway</option>
+                                        <option value="OM">Oman</option>
+                                        <option value="PK">Pakistan</option>
+                                        <option value="PW">Palau</option>
+                                        <option value="PS">Palestinian Territory, Occupied</option>
+                                        <option value="PA">Panama</option>
+                                        <option value="PG">Papua New Guinea</option>
+                                        <option value="PY">Paraguay</option>
+                                        <option value="PE">Peru</option>
+                                        <option value="PH">Philippines</option>
+                                        <option value="PL">Poland</option>
+                                        <option value="PT">Portugal</option>
+                                        <option value="PR">uerto Rico</option>
+                                        <option value="QA">Qatar</option>
+                                        <option value="SC">Republic of Seychelles</option>
+                                        <option value="RE">Reunion</option>
+                                        <option value="RO">Romania</option>
+                                        <option value="XU">USSIA ASIA REGION</option>
+                                        <option value="RU">ussian Federation</option>
+                                        <option value="RW">Rwanda</option>
+                                        <option value="BL">Saint Barthelemy</option>
+                                        <option value="MF">Saint Martin</option>
+                                        <option value="WS">Samoa</option>
+                                        <option value="SM">San Marino Republic of</option>
+                                        <option value="ST">Sao Tome and Principe</option>
+                                        <option value="SA">Saudi Arabia</option>
+                                        <option value="SN">Senegal Republic of</option>
+                                        <option value="RS">Serbia</option>
+                                        <option value="SL">Sierra Leone</option>
+                                        <option value="SG">Singapore</option>
+                                        <option value="SX">Sint Maarten</option>
+                                        <option value="SK">Slovakia</option>
+                                        <option value="SI">Slovenia</option>
+                                        <option value="SB">Solomon Islands</option>
+                                        <option value="SO">Somalia</option>
+                                        <option value="ZA">South Africa</option>
+                                        <option value="KR">South Korea</option>
+                                        <option value="SS">South Sudan</option>
+                                        <option value="ES">Spain</option>
+                                        <option value="LK">Sri Lanka</option>
+                                        <option value="SH">St. Helena</option>
+                                        <option value="KN">St. Kitts and Nevis</option>
+                                        <option value="LC">St. Lucia</option>
+                                        <option value="PM">St. Pierre and Miquelon</option>
+                                        <option value="VC">St. Vincent and the Grenadines</option>
+                                        <option value="SD">Sudan</option>
+                                        <option value="SR"> Suriname Republic of</option>
+                                        <option value="SJ">Svalbard &amp; Jan Mayen Islands</option>
+                                        <option value="SZ">Swaziland</option>
+                                        <option value="SE">Sweden</option>
+                                        <option value="CH">Switzerland</option>
+                                        <option value="SY">Syria</option>
+                                        <option value="TW">Taiwan</option>
+                                        <option value="TJ">Tajikistan</option>
+                                        <option value="TZ">Tanzania</option>
+                                        <option value="TH">Thailand</option>
+                                        <option value="TL">Timor Leste</option>
+                                        <option value="TG">Togo, Togolese Republic</option>
+                                        <option value="TO">Tonga</option>
+                                        <option value="TT">Trinidad and Tobago</option>
+                                        <option value="TN">Tunisia</option>
+                                        <option value="TR">Turkey</option>
+                                        <option value="TM">Turkmenistan</option>
+                                        <option value="TC">Turks and Caicos Islands</option>
+                                        <option value="TV">Tuvalu</option>
+                                        <option value="UG">Uganda</option>
+                                        <option value="UA">Ukraine</option>
+                                        <option value="AE">United Arab Emirates</option>
+                                        <option value="GB">United Kingdom</option>
+                                        <option value="US">nited States</option>
+                                        <option value="UM">nited States Minor Outlying Islands</option>
+                                        <option value="UY">Uruguay</option>
+                                        <option value="UZ">Uzbekistan</option>
+                                        <option value="VU">Vanuatu</option>
+                                        <option value="VA">Vatican</option>
+                                        <option value="VE">Venezuela</option>
+                                        <option value="VN">Vietnam</option>
+                                        <option value="VG">Virgin Islands (GB)</option>
+                                        <option value="VI">Virgin Islands (US)</option>
+                                        <option value="WF">Wallis and Futuna Islands</option>
+                                        <option value="YE">Yemen</option>
+                                        <option value="ZM">Zambia</option>
+                                        <option value="ZW">Zimbabwe</option>
+                                    </select>
+                                    <div id="er5">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fourthrow">
+                                <div class="fourth1">
+                                    <div class="countrycode">
+                                        <select id="bx6">
+                                        <option  disabled selected hidden value="select">Country Code</option>
+                                        <option value="AF">+93 Afghanistan</option>
+                                        <option value="AX">+358 Aland Islands</option>
+                                        <option value="AL">+355 Albania</option>
+                                        <option value="DZ">+213 Algeria</option>
+                                        <option value="AS">+1684 American Samoa</option>
+                                        <option value="AD">+376 Andorra</option>
+                                        <option value="AO">+244 Angola</option>
+                                        <option value="AI">+1264 Anguilla</option>
+                                        <option value="AQ">+672 ANTARCTICA</option>
+                                        <option value="AG">+1268 Antigua and Barbuda</option>
+                                        <option value="AR">+54 Argentina</option>
+                                        <option value="AM">+374 Armenia</option>
+                                        <option value="AW">+297 Aruba</option>
+                                        <option value="AU">+61 Australia</option>
+                                        <option value="AT">+43 Austria</option>
+                                        <option value="AZ">+994 Azerbaijan Republic</option>
+                                        <option value="BS">+1242 Bahamas</option>
+                                        <option value="BH">+973 Bahrain</option>
+                                        <option value="BD">+880 Bangladesh</option>
+                                        <option value="BB">+1246 Barbados</option>
+                                        <option value="BY">+375 Belarus</option>
+                                        <option value="BE">+32 Belgium</option>
+                                        <option value="BZ">+501 Belize</option>
+                                        <option value="BJ">+229 Benin,People's Republic of</option>
+                                        <option value="BM">+1441 Bermuda</option>
+                                        <option value="BT">+975 Bhutan</option>
+                                        <option value="BO">+591 Bolivia</option>
+                                        <option value="BQ">+599 Bonaire, Sint Eustatius and Saba</option>
+                                        <option value="BA">+387 Bosnia and Herzegovina</option>
+                                        <option value="BW">+267 Botswana</option>
+                                        <option value="BR">+55 Brazil</option>
+                                        <option value="IO">+246 British Indian Ocean Territory</option>
+                                        <option value="BN">+673 Brunei Darussalam</option>
+                                        <option value="BG">+359 Bulgaria</option>
+                                        <option value="BF">+226 Burkina Faso</option>
+                                        <option value="BI">+257 Burundi, Republic of</option>
+                                        <option value="KH">+855 Cambodia</option>
+                                        <option value="CM">+237 Cameroon</option>
+                                        <option value="CA">+1 Canada</option>
+                                        <option value="CV">+238 Cape Verde</option>
+                                        <option value="KY">+1345 Cayman Islands</option>
+                                        <option value="CF">+236 Central African Republic</option>
+                                        <option value="TD">+235 Chad</option>
+                                        <option value="CL">+56 Chile</option>
+                                        <option value="CN">+86 China</option>
+                                        <option value="CX">+61 Christmas Island</option>
+                                        <option value="CC">+61 Cocos (Keeling) Islands</option>
+                                        <option value="CO">+57 Colombia</option>
+                                        <option value="KM">+269 Comoros, Union of the</option>
+                                        <option value="CG">+242 Congo</option>
+                                        <option value="CD">+243 Congo, Democratic Republic of</option>
+                                        <option value="CK">+682 Cook Islands</option>
+                                        <option value="CR">+506 Costa Rica</option>
+                                        <option value="CI">+225 Cote D'Ivoire, Ivory Coast, Republic of the</option>
+                                        <option value="HR">+385 Croatia</option>
+                                        <option value="CU">+53 Cuba</option>
+                                        <option value="CW">+599 Curacao</option>
+                                        <option value="CY">+357 Cyprus, Republic of</option>
+                                        <option value="CZ">+420 Czech Republic</option>
+                                        <option value="DK">+45 Denmark</option>
+                                        <option value="DJ">+253 Djibouti</option>
+                                        <option value="DM">+1767 Dominica, Commonwealth of</option>
+                                        <option value="DO">+1809 Dominican Republic</option>
+                                        <option value="EC">+593 Ecuador</option>
+                                        <option value="EG">+20 Egypt</option>
+                                        <option value="SV">+503 El Salvador</option>
+                                        <option value="GQ">+240 Equatorial Guinea</option>
+                                        <option value="ER">+291 Eritrea</option>
+                                        <option value="EE">+372 Estonia</option>
+                                        <option value="ET">+251 Ethiopia</option>
+                                        <option value="FO">+298 Faeroe Islands</option>
+                                        <option value="FK">+500 Falkland Islands</option>
+                                        <option value="FJ">+679 Fiji</option>
+                                        <option value="FI">+358 Finland</option>
+                                        <option value="FR">+33 France</option>
+                                        <option value="GF">+594 French Guiana</option>
+                                        <option value="PF">+689 French Polynesia</option>
+                                        <option value="GA">+241 Gabon, Gabonese Republic</option>
+                                        <option value="GM">+220 Gambia</option>
+                                        <option value="GE">+995 Georgia</option>
+                                        <option value="DE">+49 Germany</option>
+                                        <option value="GH">+233 Ghana</option>
+                                        <option value="GI">+350 Gibraltar</option>
+                                        <option value="GR">+30 Greece</option>
+                                        <option value="GL">+299 Greenland</option>
+                                        <option value="GD">+1473 Grenada</option>
+                                        <option value="GP">+590 Guadeloupe</option>
+                                        <option value="GU">+1671 Guam</option>
+                                        <option value="GT">+502 Guatemala</option>
+                                        <option value="GG">+44 Guernsey</option>
+                                        <option value="GN">+224 Guinea, Revolutionary People's Rep'c of</option>
+                                        <option value="GW">+245 Guinea-Bissau</option>
+                                        <option value="GY">+592 Guyana, Republic of</option>
+                                        <option value="HT">+509 Haiti</option>
+                                        <option value="HN">+504 Honduras</option>
+                                        <option value="HK">+852 Hong Kong</option>
+                                        <option value="HU">+36 Hungary</option>
+                                        <option value="IS">+354 Iceland</option>
+                                        <option value="IN">+91 India</option>
+                                        <option value="ID">+62 Indonesia</option>
+                                        <option value="IR">+98 Iran</option>
+                                        <option value="IQ">+964 Iraq</option>
+                                        <option value="IE">+353 Ireland</option>
+                                        <option value="IM">+44 Isle Of Man</option>
+                                        <option value="IL">+972 Israel</option>
+                                        <option value="IT">+39 Italy</option>
+                                        <option value="JM">+1876 Jamaica</option>
+                                        <option value="JP">+81 Japan</option>
+                                        <option value="JE">+44 Jersey</option>
+                                        <option value="JO">+962 Jordan</option>
+                                        <option value="KZ">+7 Kazakhstan</option>
+                                        <option value="KE">+254 Kenya</option>
+                                        <option value="LS">+266 Kingdom of Lesotho</option>
+                                        <option value="KI">+686 Kiribati</option>
+                                        <option value="KP">+850 Korea (North)</option>
+                                        <option value="XK">+383 Kosovo</option>
+                                        <option value="KW">+965 Kuwait</option>
+                                        <option value="KG">+996 Kyrgyzstan</option>
+                                        <option value="LA">+856 Laos</option>
+                                        <option value="LV">+371 Latvia</option>
+                                        <option value="LB">+961 Lebanon</option>
+                                        <option value="LR">+231 Liberia</option>
+                                        <option value="LY">+218 Libya</option>
+                                        <option value="LI">+423 Liechtenstein</option>
+                                        <option value="LT">+370 Lithuania</option>
+                                        <option value="LU">+352 Luxembourg</option>
+                                        <option value="MO">+853 Macau</option>
+                                        <option value="MK">+389 Macedonia</option>
+                                        <option value="MG">+261 Madagascar</option>
+                                        <option value="MW">+265 Malawi</option>
+                                        <option value="MY">+60 Malaysia</option>
+                                        <option value="MV">+960 Maldives</option>
+                                        <option value="ML">+223 Mali, Republic of</option>
+                                        <option value="MT">+356 Malta</option>
+                                        <option value="MH">+692 Marshall Islands</option>
+                                        <option value="MQ">+596 Martinique</option>
+                                        <option value="MR">+222 Mauritania</option>
+                                        <option value="MU">+230 Mauritius</option>
+                                        <option value="YT">+262 Mayotte</option>
+                                        <option value="MX">+52 Mexico</option>
+                                        <option value="FM">+691 Micronesia</option>
+                                        <option value="MD">+373 Moldova</option>
+                                        <option value="MC">+377 Monaco</option>
+                                        <option value="MN">+976 Mongolia</option>
+                                        <option value="ME">+382 Montenegro</option>
+                                        <option value="MS">+1664 Montserrat</option>
+                                        <option value="MA">+212 Morocco</option>
+                                        <option value="MZ">+258 Mozambique</option>
+                                        <option value="MM">+95 Myanmar</option>
+                                        <option value="NA">+264 Namibia</option>
+                                        <option value="NR">+674 Nauru</option>
+                                        <option value="NP">+977 Nepal</option>
+                                        <option value="NL">+31 Netherlands</option>
+                                        <option value="AN">+599 Netherlands Antilles</option>
+                                        <option value="NC">+687 New Caledonia</option>
+                                        <option value="NZ">+64 New Zealand</option>
+                                        <option value="NI">+505 Nicaragua</option>
+                                        <option value="NE">+227 Niger, Republic of the</option>
+                                        <option value="NG">+234 Nigeria</option>
+                                        <option value="NU">+683 Niue, Republic of</option>
+                                        <option value="NF">+672 Norfolk Island</option>
+                                        <option value="MP">+1670 Northern Mariana Islands</option>
+                                        <option value="NO">+47 Norway</option>
+                                        <option value="OM">+968 Oman</option>
+                                        <option value="PK">+92 Pakistan</option>
+                                        <option value="PW">+680 Palau</option>
+                                        <option value="PS">+970 Palestinian Territory, Occupied</option>
+                                        <option value="PA">+507 Panama</option>
+                                        <option value="PG">+675 Papua New Guinea</option>
+                                        <option value="PY">+595 Paraguay</option>
+                                        <option value="PE">+51 Peru</option>
+                                        <option value="PH">+63 Philippines</option>
+                                        <option value="PL">+48 Poland</option>
+                                        <option value="PT">+351 Portugal</option>
+                                        <option value="PR">+1 Puerto Rico</option>
+                                        <option value="QA">+974 Qatar</option>
+                                        <option value="SC">+248 Republic of Seychelles</option>
+                                        <option value="RE">+262 Reunion</option>
+                                        <option value="RO">+40 Romania</option>
+                                        <option value="XU">+0 RUSSIA ASIA REGION</option>
+                                        <option value="RU">+7 Russian Federation</option>
+                                        <option value="RW">+250 Rwanda</option>
+                                        <option value="BL">+590 Saint Barthelemy</option>
+                                        <option value="MF">+1599 Saint Martin</option>
+                                        <option value="WS">+685 Samoa</option>
+                                        <option value="SM">+378 San Marino Republic of</option>
+                                        <option value="ST">+239 Sao Tome and Principe</option>
+                                        <option value="SA">+966 Saudi Arabia</option>
+                                        <option value="SN">+221 Senegal Republic of</option>
+                                        <option value="RS">+381 Serbia</option>
+                                        <option value="SL">+232 Sierra Leone</option>
+                                        <option value="SG">+65 Singapore</option>
+                                        <option value="SX">+1 Sint Maarten</option>
+                                        <option value="SK">+421 Slovakia</option>
+                                        <option value="SI">+386 Slovenia</option>
+                                        <option value="SB">+677 Solomon Islands</option>
+                                        <option value="SO">+252 Somalia</option>
+                                        <option value="ZA">+27 South Africa</option>
+                                        <option value="KR">+82 South Korea</option>
+                                        <option value="SS">+211 South Sudan</option>
+                                        <option value="ES">+34 Spain</option>
+                                        <option value="LK">+94 Sri Lanka</option>
+                                        <option value="SH">+290 St. Helena</option>
+                                        <option value="KN">+1869 St. Kitts and Nevis</option>
+                                        <option value="LC">+1758 St. Lucia</option>
+                                        <option value="PM">+508 St. Pierre and Miquelon</option>
+                                        <option value="VC">+1784 St. Vincent and the Grenadines</option>
+                                        <option value="SD">+249 Sudan</option>
+                                        <option value="SR">+597 Suriname Republic of</option>
+                                        <option value="SJ">+47 Svalbard &amp; Jan Mayen Islands</option>
+                                        <option value="SZ">+268 Swaziland</option>
+                                        <option value="SE">+46 Sweden</option>
+                                        <option value="CH">+41 Switzerland</option>
+                                        <option value="SY">+963 Syria</option>
+                                        <option value="TW">+886 Taiwan</option>
+                                        <option value="TJ">+992 Tajikistan</option>
+                                        <option value="TZ">+255 Tanzania</option>
+                                        <option value="TH">+66 Thailand</option>
+                                        <option value="TL">+670 Timor Leste</option>
+                                        <option value="TG">+228 Togo, Togolese Republic</option>
+                                        <option value="TO">+676 Tonga</option>
+                                        <option value="TT">+1868 Trinidad and Tobago</option>
+                                        <option value="TN">+216 Tunisia</option>
+                                        <option value="TR">+90 Turkey</option>
+                                        <option value="TM">+993 Turkmenistan</option>
+                                        <option value="TC">+1649 Turks and Caicos Islands</option>
+                                        <option value="TV">+688 Tuvalu</option>
+                                        <option value="UG">+256 Uganda</option>
+                                        <option value="UA">+380 Ukraine</option>
+                                        <option value="AE">+971 United Arab Emirates</option>
+                                        <option value="GB">+44 United Kingdom</option>
+                                        <option value="US">+1 United States</option>
+                                        <option value="UM">+1 United States Minor Outlying Islands</option>
+                                        <option value="UY">+598 Uruguay</option>
+                                        <option value="UZ">+998 Uzbekistan</option>
+                                        <option value="VU">+678 Vanuatu</option>
+                                        <option value="VA">+379 Vatican</option>
+                                        <option value="VE">+58 Venezuela</option>
+                                        <option value="VN">+84 Vietnam</option>
+                                        <option value="VG">+1284 Virgin Islands (GB)</option>
+                                        <option value="VI">+1340 Virgin Islands (US)</option>
+                                        <option value="WF">+681 Wallis and Futuna Islands</option>
+                                        <option value="YE">+967 Yemen</option>
+                                        <option value="ZM">+260 Zambia</option>
+                                        <option value="ZW">+263 Zimbabwe</option>
+                                        </select>
+                                        <div id="er6">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="phone">
+                                        <input type="tel" id="bx7" placeholder="Enter Your Contact Number*">
+                                        <div id="er7">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="agents">
+                                    <input type="text" id="bx8" placeholder="Select Your No Of Agents*">
+                                    <div id="er8">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="subscription">
+                                <label>
+                                    <input type="radio" onclick="planSelection()" id="starter" checked name="subs">STARTER
+                                </label>
+                                <label>
+                                    <input type="radio" onclick="planSelection()" id="growth" name="subs">GROWTH
+                                </label>
+                                <label>
+                                    <input type="radio" onclick="planSelection()" id="premium" name="subs">PREMIUM
+                                </label>
+                                <label>
+                                    <input type="radio" onclick="planSelection()" id="unicorn" name="subs">UNICORN
+                                </label>
+                                <span>
+                                    <a href="#">Explore Pricing</a>
+                                </span>
+                            </div>
+                            <div class="pricing">
+                                <div class="left">
+                                    <p class="l1" id="l1">STARTER</p>
+                                    <p class="l2" id="l2">Plan Suitable For 1 - 5</p>
+                                    <p class="l3" >
+                                        <span>
+                                            <img src="images/check.png" alt="checked">
+                                        </span>
+                                        <span id="l3">Everything From ClaritySuite +</span>
+                                    </p>
+                                </div>
+                                <div class="right" id="right">
+                                    <p class="price">
+                                        <span class="currency" id="r1">70</span>
+                                        <span class="usd">USD</span>
+                                    </p>
+                                    <p class="userscount">Per User | Billed Monthly</p>
+                                </div>
+                                <div class="right1" id="right1">
+                                    Our team will connect with you
+                                </div>
+                            </div>
+                            <div>
+                                <div class="url">
+                                    <input type="text"  id="bx9" placeholder="Enter Your Preferred URL*">
+                                    <span>.b2b.claritytts.com</span>
+                                </div>
+                                <div id="er9">
+                                    
+                                </div>
+                            </div>
+                            <div class="policyrobot">
+                                <div class="policy">
+                                    <span>Creating an account means you agree with our</span>
+                                    <a href="#">Terms of Service,</a>
+                                    <a href="#">& Privacy Policy</a>
+                                </div>
+                                <div class="robot">
+                                        <div class="r1">
+                                            <div><input type="checkbox"></div>
+                                            <div>I'm not a robot</div>
+                                        </div>
+                                        <div class="r2">
+                                            <img src="images/recaptcha.png" alt="recaptcha">
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="submit">
+                                <input type="submit">
+                            </div>
+                            <div class="signin">
+                                <p>If you have account already, <a href="#">Sign In</a></p>
+                            </div>
+                        </form>
+                    </div> <!-- Reg Form -->
+                </aside>
+            </section>
+        </div>  <!--Body Container-->
+        <footer>
+            <div class="footer1">
+                <span>
+                    &copy; 2022 Clarity Travel Technology Solutions. All Rights Reserved.
+                </span>
+                <span>
+                    <a href="#">Copyright Policy</a> | 
+                    <a href="#">Security</a> | 
+                    <a href="#">Terms Of Service</a> | 
+                    <a href="#">Privacy Policy</a> | 
+                    <a href="#">GDPR</a> | 
+                    <a href="#">Cookie Policy</a>
+                </span>
+            </div>
+            <div class="footer2">
+                Designed By <a href="https://www.instagram.com/_g__v_i_c_k_y_/" target="_blank">G.Vignesh</a>
+            </div>
+        </footer>
+    </body>
+</html>
